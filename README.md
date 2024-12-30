@@ -1,11 +1,12 @@
-Munkres (Hungarian) Algorithm Implementation
+# Munkres (Hungarian) Algorithm Implementation
 
-Overview
+# Overview
 
-This repository contains an implementation of the Munkres (Hungarian) algorithm, which is a combinatorial optimization algorithm that solves the assignment problem in polynomial time. The algorithm finds the optimal assignment of tasks to agents while minimizing (or maximizing) the total cost.
+This repository contains an implementation of the Munkres (Hungarian) algorithm, which is a combinatorial optimization algorithm that solves the assignment problem in polynomial time. The algorithm finds the optimal assignment of tasks to agents while minimizing the total cost.
+
 The notebook includes visualizations and numerical results to help users understand how the algorithm works step by step.
 
-Features
+# Features
 
 Solves the assignment problem for square cost matrices.
 
@@ -15,6 +16,7 @@ Includes detailed comments and explanations for better understanding.
 
 Here is a simple example of using the Munkres algorithm:
 
+```
 from munkres import Munkres
 
 # Define the cost matrix
@@ -32,8 +34,9 @@ assignments = m.compute(cost_matrix)
 
 # Output the result
 print("Assignments:", assignments)
-
-Results
+```
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. 
+
+See the LICENSE file for details.
